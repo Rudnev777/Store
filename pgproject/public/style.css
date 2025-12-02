@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+}
+
+h1{
+    color: blueviolet;
+}
+
+button{
+    color: aqua;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
