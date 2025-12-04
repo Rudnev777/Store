@@ -54,9 +54,9 @@ export function create_product_card() {
   let section = document.getElementById("section-product_card-id");
   if (!section) {
     section = document.createElement("section");
-    section.classList.add("section-product_card");
     section.id = "section-product_card-id";
 
     container.append(section);
   }
+  section.classList.add("section-product_card");
 }

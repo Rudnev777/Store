@@ -1,5 +1,6 @@
 .section-breadcrumbs {
   padding: 15px;
+  margin: 15px;
   border-style: solid;
 }
 
@@ -14,6 +15,7 @@
 
 .section-product_card {
   padding: 15px;
+  margin: 15px;
   border-style: solid;
   background-color: chartreuse;
 }
