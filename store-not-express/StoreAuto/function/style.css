@@ -1,0 +1,19 @@
+.section-breadcrumbs {
+  padding: 15px;
+  border-style: solid;
+}
+
+.a-breadcrumb {
+  color: black;
+  text-decoration: none;
+}
+
+.a-breadcrumb-last {
+  color: darkblue;
+}
+
+.section-product_card {
+  padding: 15px;
+  border-style: solid;
+  background-color: chartreuse;
+}
