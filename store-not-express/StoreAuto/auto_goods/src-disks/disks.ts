@@ -1,4 +1,8 @@
-import "./style.css";
-import {create_breadcrumbs, create_product_card} from "../../function/function.js"
-create_breadcrumbs();
-create_product_card();
+import "./style-disks.css";
+import * as Utils from "../../function/function.ts"
+
+Utils.create_breadcrumbs();
+Utils.create_button_back();
+for (let i = 0; i < 6; i++) {
+  Utils.create_product_card();
+}

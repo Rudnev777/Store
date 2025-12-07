@@ -1,9 +1,6 @@
 import './style.css'
-import {create_breadcrumbs} from "../function/function.js"
-import {fetchUsers} from "../connection-database.js"
+import * as Utils from "../function/function.ts"
 
-create_breadcrumbs();
-// Использование
-fetchUsers().then(users => {
-  console.log('Получен массив:', users);
-});
+Utils.create_breadcrumbs();
+Utils.create_catalog("Автоаксессуары", "../public/auto-goods.png","auto_goods.html" )
+Utils.create_catalog("Запчасти", "../public/parts.png","auto_parts.html" )
