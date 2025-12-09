@@ -7,7 +7,7 @@
   --color-a: white;
   --border-radius: 0.5rem;
 
-  /* font-size: 16px; */
+
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   background: var(--color-bg-body);
   color: var(--color-a);
   height: 100vh;
-  /* font-size: 1rem;  */
+
   overflow-y: auto;
 }
 
@@ -216,3 +216,8 @@ a {
   background: #f8ab07;
   transform: translateY(-2px);
 }
+
+
+
+
+ 
